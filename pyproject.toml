@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "profiler_view"
+version = "0.1.0"
+description = ""
+authors = ["Mehdi"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tensorboard = "^2.18.0"
+torch-tb-profiler = "^0.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
